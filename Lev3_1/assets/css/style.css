@@ -1,3 +1,8 @@
+:root {
+    --color: #daf6ff;
+    --text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+}
+
 *,
 *::before,
 *::after {
@@ -22,16 +27,16 @@ section div {
 
 h2 {
     font-size: 1.7em;
-    color: #daf6ff;
-    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+    color: var(--color);
+    text-shadow: var(--text-shadow);
     margin-bottom: 30px;
 }
 
 ul,
 p {
     font-size: 1.2em;
-    color: #daf6ff;
-    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+    color: var(--color);
+    text-shadow: var(--text-shadow);
 }
 
 @media (max-width: 576px) {

@@ -17,7 +17,7 @@ let nineteen = document.querySelector('#nineteen');
 let twenty = document.querySelector('#twenty');
 
 //variable for for
-let months = ['January', 'February', 'March', 'April', 'May', 'Jun', 'July', 'August', 'September', 'October', 'November', 'December'];
+let months_Array = ['January', 'February', 'March', 'April', 'May', 'Jun', 'July', 'August', 'September', 'October', 'November', 'December'];
 let year;
 let month;
 
@@ -28,7 +28,7 @@ const fifteen2015 = () => {
             const thirteen = new Date(year, month, 13);
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
-                li.innerText = 'Friday 13th ' + months[month] + ' ' + year;
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
                 fifteen.append(li);
                 console.log(li.innerText);
             }
@@ -46,7 +46,7 @@ const sixteen2016 = () => {
             const thirteen = new Date(year, month, 13);
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
-                li.innerText = 'Friday 13th ' + months[month] + ' ' + year;
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
                 sixteen.append(li);
                 console.log(li.innerText);
             }
@@ -64,7 +64,7 @@ const seventeen2017 = () => {
             const thirteen = new Date(year, month, 13);
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
-                li.innerText = 'Friday 13th ' + months[month] + ' ' + year;
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
                 seventeen.append(li);
                 console.log(li.innerText);
             }
@@ -82,7 +82,7 @@ const eighteen2018 = () => {
             const thirteen = new Date(year, month, 13);
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
-                li.innerText = 'Friday 13th ' + months[month] + ' ' + year;
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
                 eighteen.append(li);
                 console.log(li.innerText);
             }
@@ -100,7 +100,7 @@ const nineteen2019 = () => {
             const thirteen = new Date(year, month, 13);
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
-                li.innerText = 'Friday 13th ' + months[month] + ' ' + year;
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
                 nineteen.append(li);
                 console.log(li.innerText);
             }
@@ -118,7 +118,7 @@ const twenty2020 = () => {
             const thirteen = new Date(year, month, 13);
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
-                li.innerText = 'Friday 13th ' + months[month] + ' ' + year;
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
                 twenty.append(li);
                 console.log(li.innerText);
             }
