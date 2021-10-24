@@ -15,6 +15,8 @@ let seventeen = document.querySelector('#seventeen');
 let eighteen = document.querySelector('#eighteen');
 let nineteen = document.querySelector('#nineteen');
 let twenty = document.querySelector('#twenty');
+let twentyOne = document.querySelector('#twentyOne');
+let twentyTwo = document.querySelector('#twentyTwo');
 
 //variable for for
 let months_Array = ['January', 'February', 'March', 'April', 'May', 'Jun', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -29,7 +31,7 @@ const fifteen2015 = () => {
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
                 li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
-                fifteen.append(li);
+                fifteen.appendChild(li);
                 console.log(li.innerText);
             }
         }
@@ -47,7 +49,7 @@ const sixteen2016 = () => {
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
                 li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
-                sixteen.append(li);
+                sixteen.appendChild(li);
                 console.log(li.innerText);
             }
         }
@@ -65,7 +67,7 @@ const seventeen2017 = () => {
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
                 li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
-                seventeen.append(li);
+                seventeen.appendChild(li);
                 console.log(li.innerText);
             }
         }
@@ -83,7 +85,7 @@ const eighteen2018 = () => {
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
                 li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
-                eighteen.append(li);
+                eighteen.appendChild(li);
                 console.log(li.innerText);
             }
         }
@@ -101,7 +103,7 @@ const nineteen2019 = () => {
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
                 li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
-                nineteen.append(li);
+                nineteen.appendChild(li);
                 console.log(li.innerText);
             }
         }
@@ -119,7 +121,7 @@ const twenty2020 = () => {
             if (thirteen.getDay() == 5) {
                 const li = document.createElement('li');
                 li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
-                twenty.append(li);
+                twenty.appendChild(li);
                 console.log(li.innerText);
             }
         }
@@ -128,4 +130,42 @@ const twenty2020 = () => {
 twenty2020();
 
 console.log('------------- Das war 2020 ----------------')
+console.log('-------------------------------------------')
+
+//createElement for 2021
+const twenty2021 = () => {
+    for (year = 2021; year <= 2021; year++) {
+        for (month = 0; month < 11; month++) {
+            const thirteen = new Date(year, month, 13);
+            if (thirteen.getDay() == 5) {
+                const li = document.createElement('li');
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
+                twentyOne.appendChild(li);
+                console.log(li.innerText);
+            }
+        }
+    }
+}
+twenty2021();
+
+console.log('------------- Das war 2021 ----------------')
+console.log('-------------------------------------------')
+
+//createElement for 2022
+const twenty2022 = () => {
+    for (year = 2022; year <= 2022; year++) {
+        for (month = 0; month < 11; month++) {
+            const thirteen = new Date(year, month, 13);
+            if (thirteen.getDay() == 5) {
+                const li = document.createElement('li');
+                li.innerText = 'Friday 13th ' + months_Array[month] + ' ' + year;
+                twentyTwo.appendChild(li);
+                console.log(li.innerText);
+            }
+        }
+    }
+}
+twenty2022();
+
+console.log('------------- Das war 2022 ----------------')
 console.log('-------------------------------------------')
