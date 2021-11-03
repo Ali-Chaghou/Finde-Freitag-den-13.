@@ -33,7 +33,7 @@ h2 {
 }
 
 ul,
-p {
+li {
     font-size: 1.2em;
     color: var(--color);
     text-shadow: var(--text-shadow);

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verrückte Berechnung - why oh why</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <section>
+        <h1>Spaß mit Zahlen</h1>
+        <p class="intro">
+            Gib eine maximale Zahl ein. Dann wähle zwei weitere Zahlen aus der Liste aus. <br /> Ich werde ALLE Zahlen bis zu der maximalen Zahl zu einer Summe addieren, wenn diese durch eine der beiden ausgewählten Zahlen teilbar ist.
+        </p>
+        <form>
+            <label><p class="chose">Gib die maximale Zahl ein:</p>
+          <input type="number" name="max-num" class="max-num" />
+        </label>
+            <label>
+          <p class="chose">Wähle die erste Zahl aus:</p>
+          <select class="first-num" name="first-num">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="3">7</option>
+            <option value="4">8</option>
+            <option value="5">9</option>
+          </select>
+        </label>
+            <label>
+          <p class="chose">Wähle die zweite Zahl aus:</p>
+          <select class="second-num" name="second-num">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="3">7</option>
+            <option value="4">8</option>
+            <option value="5">9</option>
+          </select>
+        </label>
+            <button class="button" type="submit">Ich prüfen und addiere</button>
+        </form>
+        <p class="output"></p>
+        <p class="output-summe"></p>
+        <button class="reset">Noch mal!</button>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
